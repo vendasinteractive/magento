@@ -1,4 +1,6 @@
 conf/
+licenses/
+scripts/
 htdocs/media/customer/
 htdocs/media/dhl/
 htdocs/media/downloadable/
