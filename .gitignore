@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 conf/
 licenses/
 scripts/
@@ -10,3 +11,5 @@ htdocs/media/xmlconnect/
 htdocs/media/catalog/product/cache/
 htdocs/media/catalog/product/placeholder/default/
 htdocs/var/
+=======
+>>>>>>> parent of 3eab854... Updated .gitignore for magento
