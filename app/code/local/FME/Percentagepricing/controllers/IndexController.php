@@ -14,6 +14,8 @@ class FME_Percentagepricing_IndexController extends Mage_Core_Controller_Front_A
 
 		$percentagepricing_id = $this->getRequest()->getParam('id');
 
+		Mage::log("ID = " . $percentagepricing_id, null, "mylogfile.log");
+
   		if($percentagepricing_id != null && $percentagepricing_id != '')	{
 			$percentagepricing = Mage::getModel('percentagepricing/percentagepricing')->load($percentagepricing_id)->getData();
 		} else {
