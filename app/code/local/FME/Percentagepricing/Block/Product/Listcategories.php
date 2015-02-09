@@ -7,7 +7,8 @@ class FME_Percentagepricing_Block_Product_Listcategories extends Mage_Catalog_Bl
 
 
 protected function _getProductCollection(){
- 
+
+    Mage::log("entered _getProductCollection", "mylogfile.log");
 
  $cpBlock = $this->getLayout()->getBlockSingleton('Mage_Catalog_Block_Product_List_Toolbar');
 //echo //getCurrentMode();
