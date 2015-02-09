@@ -115,6 +115,9 @@ class Mage_Catalog_ProductController extends Mage_Core_Controller_Front_Action
      */
     public function viewAction()
     {
+
+        Mage::log("Entered viewAction for ProductController.php", null, "mylogfile.log");
+
         // Get initial data from request
         $categoryId = (int) $this->getRequest()->getParam('category', false);
         $productId  = (int) $this->getRequest()->getParam('id');
