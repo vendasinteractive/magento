@@ -42,9 +42,9 @@ class FME_Percentagepricing_IndexController extends Mage_Core_Controller_Front_A
 		}
 		Mage::register('percentagepricing', $percentagepricing);
 
-
+		Mage::log($percentagepricing, null, "mylogfile.log");
 			
-		$this->loadLayout();     
+		$this->loadLayout();
 		$this->renderLayout();
     }
 }
