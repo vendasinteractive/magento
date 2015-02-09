@@ -53,7 +53,9 @@ class FME_Percentagepricing_Block_Percentagepricing extends Mage_Core_Block_Temp
 		$ruleIds = array();
 		
 		//Get Current Product ID
-		//$productId = $this->getRequest()->getParam('id'); //echo $productId;
+		$productId = $this->getRequest()->getParam('id');
+
+		Mage::log("ProductID: " . $productId, "mylogfile.log");
 	   
 		if ($id != null)
 		{
