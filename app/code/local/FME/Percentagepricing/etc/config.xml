@@ -87,7 +87,7 @@
             </percentagepricing_mysql4>
 			<catalog>
 				<rewrite>
-					<product_type_price>FME_Percentagepricing_Model_PriceXXXFME_Percentagepricing_Block</product_type_price>
+					<product_type_price>FME_Percentagepricing_Model_Price</product_type_price>
 				</rewrite>
                 <rewrite>
                     <product_type_configurable_price>FME_Percentagepricing_Model_Configurable_Price</product_type_configurable_price>
