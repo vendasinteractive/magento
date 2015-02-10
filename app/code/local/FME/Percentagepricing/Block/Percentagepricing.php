@@ -5,6 +5,7 @@ class FME_Percentagepricing_Block_Percentagepricing extends Mage_Core_Block_Temp
 	
 	public function __construct()
 	{
+		Mage::log("PercentagePricing Block constructed", null, "mylogfile.log");
 		$this->_priority = 1;
 	}
 	
