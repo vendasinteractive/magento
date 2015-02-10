@@ -128,11 +128,11 @@
             <percentagepricing>
                 <class>FME_Percentagepricing_Helper</class>
             </percentagepricing>
-            <catalog>
+            <!--<catalog>
                 <rewrite>
                     <data>FME_Percentagepricing_Helper_Data</data>
                 </rewrite>
-            </catalog>
+            </catalog>-->
         </helpers>
 
 
