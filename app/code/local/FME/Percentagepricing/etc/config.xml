@@ -118,21 +118,11 @@
             <percentagepricing>
                 <class>FME_Percentagepricing_Block</class>
             </percentagepricing>
-            <catalog>
-                <rewrite>
-                    <product_list>FME_Percentagepricing_Block_Product_Listcategories</product_list>
-                </rewrite>
-            </catalog>
         </blocks>
         <helpers>
             <percentagepricing>
                 <class>FME_Percentagepricing_Helper</class>
             </percentagepricing>
-            <!--<catalog>
-                <rewrite>
-                    <data>FME_Percentagepricing_Helper_Data</data>
-                </rewrite>
-            </catalog>-->
         </helpers>
 
 
