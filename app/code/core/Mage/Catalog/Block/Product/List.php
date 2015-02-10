@@ -55,6 +55,8 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
      */
     protected function _getProductCollection()
     {
+        mage::log("_getProductCollection called", null, "mylogfile.log");
+
         if (is_null($this->_productCollection)) {
             $layer = $this->getLayer();
             /* @var $layer Mage_Catalog_Model_Layer */
