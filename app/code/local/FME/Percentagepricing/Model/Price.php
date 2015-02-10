@@ -36,6 +36,8 @@ class FME_Percentagepricing_Model_Price extends Mage_Catalog_Model_Product_Type_
     
     public function getPrice($product)
     {
+        Mage::log("FME getPrice was called", null, "mylogfile.log");
+
         //load product to get the all required data
         $model = Mage::getModel('catalog/product'); 
         $_product = $model->load($product->getId());
