@@ -113,7 +113,9 @@ return $this->_productCollection;
 
 }
  public function getPagerHtml($collection = 'null')
-            {   
+            {
+                Mage::log("getPagerHtml from Listcategories.php called", null, "mylogfile.log");
+
                 $html = false;
                 if($collection == 'null') return;
                 if($collection->count() > $this->_itemPerPage)
@@ -158,6 +160,7 @@ return $this->_productCollection;
            
             public function getPagerUrl()                            // You need to change this function as per your url.
             {
+                Mage::log("getPagerUrl from Listcategories.php called", null, "mylogfile.log");
                 $cur_url = mage::helper('core/url')->getCurrentUrl();
                 $new_url = preg_replace('/\&p=.*/', '', $cur_url);
                
