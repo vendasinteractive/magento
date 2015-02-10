@@ -5,6 +5,8 @@ class FME_Percentagepricing_Model_Configurable_Price extends Mage_Catalog_Model_
     
     public function getFinalPrice($qty=null, $product)
     {
+        Mage::log("FME getPrice from ConfigurablePrice was called", null, "mylogfile.log");
+
         //load product to get the all required data
         $model = Mage::getModel('catalog/product'); 
         $_product = $model->load($product->getId());
