@@ -1,6 +1,7 @@
 <?php
 class FME_Percentagepricing_Block_Product_Listcategories extends Mage_Catalog_Block_Product_List{
-  
+
+
          private $_itemPerPage;
          private $_curPage = 1;
 //same function from Mage_Catalog_Block_Product_List
