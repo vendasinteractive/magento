@@ -105,6 +105,8 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
      */
     public function getLayer()
     {
+        Mage::log("getLayer from List.php called", null, "mylogfile.log");
+
         $layer = Mage::registry('current_layer');
         if ($layer) {
             return $layer;
@@ -129,6 +131,8 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
      */
     public function getMode()
     {
+
+        Mage::log("getMode from List.php called", null, "mylogfile.log");
         return $this->getChild('toolbar')->getCurrentMode();
     }
 
@@ -138,6 +142,8 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
      */
     protected function _beforeToHtml()
     {
+
+        Mage::log("beforeToHtml from List.php called", null, "mylogfile.log");
         $toolbar = $this->getToolbarBlock();
 
         // called prepare sortable parameters
