@@ -115,11 +115,11 @@
             </percentagepricing_read>
         </resources>
         <blocks>
-            <percentagepricing>
+            <catalog>
                 <rewrite>
                     <product_list>FME_Percentagepricing_Block_Product_Listcategories</product_list>
                 </rewrite>
-            </percentagepricing>
+            </catalog>
         </blocks>
         <helpers>
             <percentagepricing>
